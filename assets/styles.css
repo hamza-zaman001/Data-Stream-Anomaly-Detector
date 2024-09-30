@@ -1,0 +1,60 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body, html {
+    font-family: 'Poppins', sans-serif; /* Use Poppins as the default font */
+    background-color: #240750;  /* Dark background */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Ensures content fits within 100vh */
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #57A6A1; /* Primary color for heading */
+    font-weight: 600; /* Bold heading */
+    margin-bottom: 30px;
+}
+
+.graph-container {
+    background-color: rgba(87, 123, 141, 0.7); /* Transparency effect */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.button-container {
+    background-color: rgba(52, 76, 100, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+button {
+    background-color: #344C64;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #57A6A1; /* Hover effect */
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
